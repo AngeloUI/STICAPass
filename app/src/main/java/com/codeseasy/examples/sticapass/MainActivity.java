@@ -16,7 +16,7 @@ import com.journeyapps.barcodescanner.ScanOptions;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn_scan, btn_logout;
+    Button btn_scan, btn_health, btn_privacy;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +25,27 @@ public class MainActivity extends AppCompatActivity {
         btn_scan =findViewById(R.id.btnScanner);
         btn_scan.setOnClickListener(v -> {
             scanCode();
+        });
+
+
+        btn_health = findViewById(R.id.healthdeclaration);
+        btn_health.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HealthForm.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btn_privacy = findViewById(R.id.dataprivacyconsent);
+        btn_privacy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), privacyconsent.class);
+                startActivity(intent);
+                finish();
+            }
         });
 //        btn_logout.setOnClickListener(new View.OnClickListener() {
 //            @Override

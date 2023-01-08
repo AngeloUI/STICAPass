@@ -552,7 +552,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonback"
         android:layout_width="94dp"
         android:layout_height="38dp"
         android:background="@drawable/radiusbtn"

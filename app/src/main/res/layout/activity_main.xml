@@ -7,12 +7,13 @@
     android:layout_height="match_parent"
     android:background="#F0F3F4"
     android:weightSum="7"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="294dp"
+        android:layout_width="310dp"
         android:layout_height="86dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#3498DB"
@@ -22,7 +23,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/dataprivacyconsent"
         app:layout_constraintVertical_bias="0.21" />
 
     <androidx.cardview.widget.CardView
@@ -48,7 +49,7 @@
             app:layout_constraintHorizontal_bias="0.952"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.024"
+            app:layout_constraintVertical_bias="0.24"
             tools:srcCompat="@tools:sample/avatars" />
 
     </androidx.cardview.widget.CardView>
@@ -69,7 +70,7 @@
         app:layout_constraintHorizontal_bias="0.109"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.14" />
 
     <TextView
         android:id="@+id/welcomeTextview"
@@ -78,17 +79,17 @@
         android:fontFamily="@font/poppinsmedium"
         android:text="Welcome Student!"
         android:textColor="#70777C"
-        android:textSize="12sp"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintHorizontal_bias="0.09"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnScanner"
-        android:layout_width="294dp"
+        android:layout_width="310dp"
         android:layout_height="86dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#D6EAF8"
@@ -101,11 +102,11 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339" />
+        app:layout_constraintVertical_bias="0.330" />
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="294dp"
+        android:id="@+id/healthdeclaration"
+        android:layout_width="310dp"
         android:layout_height="86dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#AED6F1"
@@ -116,11 +117,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnScanner"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="294dp"
+        android:id="@+id/dataprivacyconsent"
+        android:layout_width="310dp"
         android:layout_height="86dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#85C1E9"
@@ -131,6 +133,7 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthdeclaration"
         app:layout_constraintVertical_bias="0.686" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

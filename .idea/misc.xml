@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_dashboard.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_healthform.xml" value="0.264" />
         <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_login.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_privacyconsent.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_sign_up.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/gerar/Downloads/wetransfer_stica-pass-updaed_2023-01-07_1652/STICA Pass updaed/Login-Register-Android/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
       </map>
     </option>
