@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/gradient"
+    android:background="#F0F3F4"
 
 
     tools:context=".Login">
@@ -13,12 +13,12 @@
         android:id="@+id/textView"
         android:layout_width="457dp"
         android:layout_height="172dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="108dp"
         android:fontFamily="@font/poppinsbold"
         android:gravity="center"
         android:src="@drawable/sp"
         android:text="@string/login"
-        android:textColor="#566573"
+        android:textColor="#4e6aa0"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,8 +40,8 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:hint="@string/username"
-            android:textColorHighlight="#566573"
-            app:hintTextColor="#566573"
+            android:textColor="#99cc33"
+            app:hintTextColor="#99cc33"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -51,12 +51,12 @@
                 android:id="@+id/username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#000000"
+                android:backgroundTint="#99cc33"
                 android:drawableEnd="@drawable/ic_user"
                 android:fontFamily="@font/poppinsmedium"
-                android:textColor="#566573"
-                android:textColorLink="@color/design_default_color_on_secondary"
-                android:textSelectHandle="@color/design_default_color_on_secondary"
+                android:textColor="#99cc33"
+                android:textColorLink="#99cc33"
+                android:textSelectHandle="#99cc33"
                 tools:targetApi="jelly_bean" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -68,7 +68,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:hint="@string/password"
-            android:textColorHint="#566573"
+            android:textColorHint="#99cc33"
             app:hintTextColor="#FFFEFE"
             app:layout_constraintTop_toBottomOf="@+id/textInputLayoutUsername"
             tools:layout_editor_absoluteX="0dp">
@@ -77,13 +77,13 @@
                 android:id="@+id/password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="#000000"
+                android:backgroundTint="#99cc33"
                 android:drawableEnd="@drawable/ic_pass"
                 android:fontFamily="@font/poppinsmedium"
                 android:inputType="textPassword"
-                android:textColor="#566573"
-                android:textColorLink="@color/design_default_color_on_secondary"
-                android:textSelectHandle="@color/design_default_color_on_secondary" />
+                android:textColor="#99cc33"
+                android:textColorLink="#99cc33"
+                android:textSelectHandle="#99cc33" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <ProgressBar
@@ -104,10 +104,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="40dp"
             android:layout_marginEnd="8dp"
-            android:backgroundTint="#566573"
+            android:backgroundTint="#99cc33"
             android:fontFamily="@font/poppinsbold"
             android:text="@string/login"
-            android:textColorLink="#566573"
+            android:textColorLink="#99cc33"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/progress" />
@@ -116,14 +116,14 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="136dp"
-        android:layout_height="103dp"
+        android:layout_width="158dp"
+        android:layout_height="111dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/sp" />
+        app:srcCompat="@drawable/logoStica" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
